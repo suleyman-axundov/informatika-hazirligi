@@ -28,6 +28,10 @@
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffcc00;
     }
     section {
       padding: 40px;
@@ -58,9 +62,11 @@
       border: none;
       border-radius: 5px;
       cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
     }
     button:hover {
       background-color: #005fa3;
+      transform: scale(1.05);
     }
     footer {
       background-color: #003f66;
@@ -81,6 +87,7 @@
 <nav>
   <a href="#haqqimda">Haqqımda</a>
   <a href="#kurslar">Kurslar</a>
+  <a href="#dersler">Dərslər</a>
   <a href="#elaqe">Əlaqə</a>
 </nav>
 
@@ -101,6 +108,20 @@
       <li>İmtahan strategiyaları</li>
     </ul>
     <p><strong>Aylıq qiymət:</strong> 50 AZN</p>
+  </div>
+</section>
+
+<section id="dersler">
+  <div class="card">
+    <h2>Dərslər Necə Keçirilir?</h2>
+    <p>Dərslər tamamilə DİM-in qəbul proqramına uyğun şəkildə tərtib olunur.</p>
+    <ul>
+      <li><strong>Format:</strong> Əyani və ya onlayn dərslər (Zoom, Google Meet)</li>
+      <li><strong>Məzmun:</strong> İnformatikanın nəzəriyyəsi + Praktik sual həlləri + Model testlər</li>
+      <li><strong>Metodika:</strong> Sadə izahlar, hər dərsdən sonra testlər və tapşırıqlar</li>
+      <li><strong>Dərs müddəti:</strong> Həftədə 2 dəfə, hər dərs 1.5 saat</li>
+      <li><strong>Materiallar:</strong> DİM rəsmi proqramı + Əlavə testlər və məşqlər</li>
+    </ul>
   </div>
 </section>
 
